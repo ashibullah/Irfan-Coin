@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f8ff;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    color: #333;
+}
+
+.counter {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.coin {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+.coin:active {
+    transform: scale(0.9);
+}
