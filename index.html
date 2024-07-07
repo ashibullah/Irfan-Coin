@@ -10,7 +10,19 @@
     <div class="container">
         <h1>Irfan Coin</h1>
         <div class="counter">Coins: <span id="coinCount">0</span></div>
-        <img src="coin.png" alt="Coin Image" id="coinImage" class="coin">
+        <button id="coinButton" class="coin">
+            <img src="coin.png" alt="Coin Image">
+        </button>
+        <div id="boomMessage" class="boom hidden">Boom!</div>
+        <button id="rocketButton" class="rocket-button hidden">
+            <img src="rocket.png" alt="Rocket">
+        </button>
+        <div class="progress-bar">
+            <div class="progress" id="progress"></div>
+        </div>
+        <span id="energyLevelDisplay">Energy: 1000</span>
+        
+        
     </div>
     <script src="script.js"></script>
 </body>
